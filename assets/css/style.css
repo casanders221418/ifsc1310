@@ -1,0 +1,17 @@
+/* ------Box Sizing------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* --------Utility Styles------- */
+  
+  .container{
+    width:80vw;  /* flexible units - could use percent (inside of other elements) or vw vh - viewport width and height*/
+    margin:40px auto; 
+  }
