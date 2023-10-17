@@ -13,7 +13,9 @@ html {
 
 
 /*-------------------Responsive Images---------------------*/
-img::after
+img{
+  max-width:100%;
+}
 
 
 
@@ -62,7 +64,7 @@ img::after
 body{background-color:white;
 font-family: 'croissant one', sans-serif;
   margin:0;
-  background-image:url("../img/flexfrogtemp.png");
+  background-image:url("../img/airport.jpeg");
   /*----default is tiling----*/
   /*--background-repeat:repeat-x or y repeats along the x or y axis---*/
   background-repeat:no-repeat;
@@ -79,7 +81,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   
   padding:40px;
   /*long form - */
-
   padding-top:40px;
   padding-right:40px;
   padding-bottom:40px;
@@ -155,16 +156,16 @@ header.primary nav a:active{
 #content{
   display:flex;
   flex-direction:row;
-  justify-content:space-between;
-  gap:20px;
+  justify-content:space-around;
+  gap:10px;
   border-bottom: 1px dotted #c0c0c0;
   padding-bottom:2.6rem;
 }
 
 #content article.post{
-  box-shadow: 0 4px 8px rgba(0,0,0,.4);
+  box-shadow: 0 10px 10px rgba(0,0,0,.4);
   padding:10px;
-  font-size:.8rem;
+  font-size:1.0 rem;
   transition:.5s;
 
   
@@ -178,7 +179,8 @@ article.post figure{
   margin:0;
 }
 
-time.post-date, figcaption, .post-meta{
+time.post-date, figcaption, 
+.post-meta{
   text-transform:uppercase;
   color:#c0c0c0;
   font-size:.7rem;
