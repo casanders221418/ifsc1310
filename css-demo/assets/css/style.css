@@ -70,7 +70,6 @@ font-family: 'croissant one', sans-serif;
   background-repeat:no-repeat;
   background-position:20vh 20vw;
   background-size:contain;
-
 }
 
 header.primary{
@@ -182,7 +181,8 @@ article.post figure{
 time.post-date, figcaption, 
 .post-meta{
   text-transform:uppercase;
-  color:#c0c0c0;
+  color:black;
+  background-color:white;
   font-size:.7rem;
 }
 
