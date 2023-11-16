@@ -1,0 +1,93 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+img{
+    max-width:100%;
+  }
+
+.container{
+    width:80vw;  /* flexible units - could use percent (inside of other elements) or vw vh - viewport width and height*/
+    margin:40px auto; 
+  }
+
+  body{
+    background-color:#F0E8E5;
+    font-family: 'croissant one', sans-serif;
+    padding:40px;
+    margin:0;
+  }
+
+header.primary nav{
+    background:none;
+    max-width:960px;
+    margin: 40px auto; /* T/B and R/L */
+    /* center any block-level element - don't use manually calculated margin; set auto */
+  }
+  
+  header.primary nav ul{
+    display:flex;
+    flex-direction:row; /*row-reverse will reverse order*/
+    justify-content:space-evenly;
+    padding:0;
+  }
+  
+  header.primary nav ul li{
+    list-style-type:none;
+  }
+  
+  header.primary nav a{
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#000000;
+    background-color: rgba(0,0,0,0.4); /*rgba a - alpha=opacity; can also be done with opacity but will also change the text*/
+    padding:8px 16px;
+    border-radius:20px 10px; /*rounds the edges*/
+    transition:0.5s;
+  }
+  h1, h2, h3, h4, h5, h6{
+    color:#994D12;
+  }
+  header.primary nav a:hover,
+  header.primary nav a:active{
+    background-color: rgba(0,0,0,0.8); 
+  }
+
+  table{
+    width:100%; /*fill container 100% */
+    border:1px solid #c0c0c0;
+    margin:20px 0;
+    border-collapse:collapse;
+  }
+  
+  table caption{
+    font-weight:bold;
+    margin:10px;
+  }
+  table tr:nth-child(even){ /*could select odd or row # or 3n+2 every third row starting with line 2*/
+    background-color:rgba(0,0,0,.1);
+  } /*alternating row color*/
+  
+  table tr:hover{
+    background-color:rgba(0,0,0,.2);
+  }
+  
+  table th{
+    background-color:#FF9D52;
+    padding:10px;
+  }
+  
+  td:nth-child(n+2){
+    text-align:right;
+  }
+  
+  table td{
+    border:1px solid #c0c0c0;
+    padding:5px;
+  }
