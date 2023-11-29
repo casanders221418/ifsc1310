@@ -18,14 +18,14 @@ img{
   }
 
   body{
-    background-color:#F0E8E5;
-    font-family: 'croissant one', sans-serif;
+    background-color:#E6EFF4;
+    font-family: 'Roboto Condensed', sans-serif;
     padding:40px;
     margin:0;
   }
 
 header.primary nav{
-    background:none;
+    background-image:url("../img/dragon-in-space.jpg");
     max-width:960px;
     margin: 40px auto; /* T/B and R/L */
     /* center any block-level element - don't use manually calculated margin; set auto */
@@ -45,14 +45,14 @@ header.primary nav{
   header.primary nav a{
     color:#ffffff;
     text-decoration:none;
-    background-color:#000000;
+    background-color:#8F9DA6;
     background-color: rgba(0,0,0,0.4); /*rgba a - alpha=opacity; can also be done with opacity but will also change the text*/
     padding:8px 16px;
     border-radius:20px 10px; /*rounds the edges*/
     transition:0.5s;
   }
   h1, h2, h3, h4, h5, h6{
-    color:#994D12;
+    color:#71838F;
   }
   header.primary nav a:hover,
   header.primary nav a:active{
@@ -79,7 +79,7 @@ header.primary nav{
   }
   
   table th{
-    background-color:#FF9D52;
+    background-color:#71838F;
     padding:10px;
   }
   
@@ -90,4 +90,20 @@ header.primary nav{
   table td{
     border:1px solid #c0c0c0;
     padding:5px;
+  }
+
+  #footer{
+    background:#8F9DA6;
+  }
+  
+  #footer h6{
+    padding:10px;
+    margin:0;
+    text-align:center;
+    color:#E6EFF4;
+  }
+
+  #footer a{
+    color:#E6EFF4;
+    text-decoration:none;
   }
