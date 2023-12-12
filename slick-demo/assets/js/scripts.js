@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $('.fade').slick({
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     fade: false,

@@ -19,8 +19,9 @@ img{
 
   title{
     width:60vw;
-    margin:20px auto;
-    background-image:url(../img/dragon-in-space.jpg);
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(img/dragon-in-space.jpg);
   }
 
   body{
@@ -100,6 +101,26 @@ header.primary nav{
     border:1px solid #c0c0c0;
     padding:5px;
   }
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: white;
+}
+
+/* Customize Previous/Next/Dots/Autoplay - Active State */
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:black;
+}
 
   #footer{
     background:#8F9DA6;
